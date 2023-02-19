@@ -1,0 +1,24 @@
+.container{
+display: flex;
+align-content: stretch;
+align-items: stretch;
+flex-wrap: wrap;
+justify-content: center;
+/*caniuse*/
+}
+img{
+width: 450px;
+height: 300px;
+margin: 10px;
+transition: all 0.3s;
+border-radius: 24.85px;
+box-shadow: 10px 10px 10px 10px #EB0564;
+}
+img:hover{
+transform: scale(1.1);
+}
+/*w3school.com/cssref/css3-browsersupport.asp*/
+body{
+background-color: darkorchid;
+margin: 0px;
+}
